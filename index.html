@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Min Träning</title>
+  <link rel="stylesheet" href="style.css"> <!-- Kopplar ihop CSS -->
+</head>
+<body>
+  <h1>Träningsschema</h1>
+
+  <label for="day">Välj dag:</label>
+  <select id="day">
+    <option value="måndag">Måndag</option>
+    <option value="tisdag">Tisdag</option>
+    <option value="onsdag">Onsdag</option>
+    <option value="torsdag">Torwdag</option>
+    <option value="fredag">Fredag</option>
+    <option value="lördag">Lördag</option>
+    <option value="söndag">Söndag</option>
+
+  </select>
+
+  <label for="workout">Välj pass:</label>
+  <select id="workout">
+    <option value="rygg">Rygg</option>
+    <option value="ben">Ben</option>
+    <option value="armar">Armar</option>
+  </select>
+
+  <button id="showBtn">Visa pass</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script> <!-- Kopplar ihop JavaScript -->
+</body>
+</html>
